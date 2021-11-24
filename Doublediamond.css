@@ -1,0 +1,536 @@
+.dmbackground {
+    width: 100%;
+    height: 6500px;
+    background: rgba(3,89,86,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.dmlogo {
+    width: 100px;
+    height: 35px;
+    left: 5%;
+    top: 1.3%;
+    position: absolute;
+}
+
+.menutext {
+    width: 59px;
+    color: rgba(255,252,252,1);
+    position: absolute;
+    top: 11%;
+    right: 10%;
+    font-family: League Spartan;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+
+h1 {
+    color: white;
+    font-family: League Spartan;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 5%;
+    margin-left: 30%;
+    margin-top: 50%;
+}
+
+
+.sidebarmenu {
+    position: absolute;
+    width: 1px;
+    height: 6500px;
+    right:0;
+    background: #00917C;
+    transition: 0.5s;
+    position: right;
+    overflow: hidden;
+    top: 0px;
+}
+.sidebarmenu:hover,
+.sidebarmenu.active
+{
+    width: 350px;
+}
+.sidebarmenu ul {
+    position: absolute;
+    margin-top: 150px;
+    top: 0;
+    Left: 0;
+    color: rgb(255, 255, 255);
+}
+.sidebarmenu ul li {
+    position: relative;
+    margin-top: 200px;
+    list-style: none;  
+}
+
+.sidebarmenu ul li a:hover {
+    background: #00C5AD;
+
+}
+.sidebarmenu ul li a {
+    margin-right: 5px;
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: Sanchez;
+}
+.sidebarmenu ul li a .title {
+    position: relative;
+    display: block;
+    padding: 0 15px;
+    height: 50px;
+    line-height:50px;
+    text-align: start;
+    white-space: nowrap;
+}
+.toggle {
+  position: absolute;
+  top: 9%;
+  right: 5%;
+  width: 50px;
+  height: 50px;
+  background: #035956;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.toggle.active {
+  background: #00917C;
+}
+.toggle:before {
+content:'\f0c9';
+font-family: fontAwesome;
+position: absolute;
+width: 100%;
+height:100%;
+line-height: 50px;
+text-align: center;
+font-size: 32px;
+color: #fff;
+}
+.toggle.active:before {
+content: '\f00d';
+}
+.far {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 50%;
+}
+@media (max-width: 767px){
+  .navigation {
+      left:-60px
+  }
+  .navigation.active {
+      left:0px;
+      width: 100%;
+  }
+}
+
+.sideheader {
+    position: absolute;
+    color: white;
+    font-family: League Spartan;
+    font-size: 70px;
+    font-weight: bold;
+    top: 25%;
+    left: 30%;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+}
+
+.sideparagraph {
+    position: relative;
+    color: white;
+    margin-top: 18%;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 15px;
+    width: 950px;
+}
+.sideparagraph1 {
+    font-family: League Spartan;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sideparagraph2 {
+    font-family: Sanchez;
+}
+
+.ddheaders {
+    font-family: League Spartan;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 17.5%;
+    width: 60%;
+    text-align: center;
+}
+.research {
+    padding-right: 26%;
+}
+
+.ddparagraphs {
+    font-family: sanchez;
+    font-size: 15px;
+    position: absolute;
+    color: white;
+    top: 65%;
+    left: 18%;
+    width: 60%;
+    text-align: center;
+}
+.ddparagraph1 {
+    padding-right: 23%;
+}
+
+
+.doublediamond {
+    position: absolute;
+    top: 72%;
+    left: 18.5%;
+    width: 909px;
+    height: 373px;
+}
+
+.btn-toolbar {
+    position: absolute;
+    top:95%;
+    margin-left: 395px;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color:white;
+}
+  html {   
+    scroll-behavior: smooth;
+}
+
+.ddbutton1 {
+    height: 50%;
+    color: white;
+    background-color: rgba(3,89,86,1);;
+    border-radius: 30px;
+    border: 0px;
+    font-size: 20px;
+    font-family: sanchez;
+    font-style: italic;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right:  2.5%;
+    cursor: pointer;
+}
+.ddbutton1:hover {
+    background-color:#00C5AD;
+}
+
+.ddbutton2 {
+    height: 50%;
+    color: white;
+    background-color: rgba(3,89,86,1);;
+    border-radius: 30px;
+    border: 0px;
+    font-size: 20px;
+    font-family: sanchez;
+    font-style: italic;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+    margin-right: 8.7%;
+}
+.ddbutton2:hover {
+    background-color:#00C5AD;
+}
+
+.ddbutton3 {
+    height: 50%;
+    color: white;
+    background-color: rgba(3,89,86,1);;
+    border-radius: 30px;
+    border: 0px;
+    font-size: 20px;
+    font-family: sanchez;
+    font-style: italic;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+    margin-right: 3%;
+}
+.ddbutton3:hover {
+    background-color:#00C5AD;
+}
+.ddbutton4 {
+    height: 50%;
+    color: white;
+    background-color: rgba(3,89,86,1);;
+    border-radius: 30px;
+    border: 0px;
+    font-size: 20px;
+    font-family: sanchez;
+    font-style: italic;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+    margin-right: 5%;
+}
+.ddbutton4:hover {
+    background-color:#00C5AD;
+}
+
+.stepsHeader {
+    margin-top: 50%;
+    margin-left: 20%;
+    color: #fff;
+}
+.h2align {
+    position:absolute;
+    margin-top: 10px;
+    font-size: 40px;
+    left: 12%;
+    font-family: league Spartan;
+}
+.palign {
+    position:absolute;
+    margin-top: 75px;
+    margin-left: -8%;
+    font-family: Sanchez;
+    font-size: 17px;
+    width: 450px;
+}
+.postitInfo {
+    position:absolute;
+    margin-left: 165px;
+    margin-top: 200px;
+    width: 250px;
+    color: #fff;
+    font-family: Sanchez;
+    font-size: 17px;
+}
+.postits {
+    position: absolute;
+    width: 200px;
+    margin-left: 165px;
+    margin-top: 250px;
+    font-size: 100px;
+    cursor: pointer;
+}
+.ideaBoard {
+    position:absolute;
+    width: 700px;
+    height: 670px;
+    margin-left: 600px;
+    margin-top: 150px;
+    background-image: url("https://cdn.glitch.me/781106fc-dd0e-4542-acfe-afae10b0ab80%2FThe%20Ideation%20Board.png?v=1636378193780");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: repeat(3,150px);
+    gap: 5px;
+    padding-top: 90px;
+    padding-left: 70px;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-family: league Spartan;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 30px;
+    margin-left: 51px;
+    margin-top: 170px;
+  }
+
+.tools {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.elipse1 {
+    position: absolute;
+    margin-top: 60%;
+    height: 290px;
+    width: 300px;
+    border: none;
+    background-color: #00917C;
+    border-radius: 47%;
+    cursor: pointer;
+}
+.elipse1:hover {
+    background-color: #00C5AD;
+}
+.rolesimg {
+    position: absolute;
+    left: 28%;
+    top: 29%;
+}
+.elipse2 {
+    position:absolute;
+    margin-top: 60%;
+    margin-left: 40%;
+    height: 300px;
+    width: 315px;
+    border: none;
+    background-color: #00917C;
+    border-radius: 55%;
+    cursor: pointer;
+}
+.elipse2:hover {
+    background-color: #00C5AD;
+}
+.methodkitimg {
+    position: absolute;
+    left: 28%;
+    top: 29%;
+}
+.elipse3 {
+    position:absolute;
+    margin-top: 60%;
+    margin-left: 70%;
+    height: 290px;
+    width: 300px;
+    border: none;
+    background-color: #00917C;
+    border-radius: 47%;
+    cursor: pointer;
+}
+.elipse3:hover {
+    background-color: #00C5AD;
+}
+.teamimg {
+    position: absolute;
+    left: 28.6%;
+    top: 30%;
+}
+
+text {
+    position: absolute;
+    fill: white;
+    font-size: 34px;
+    font-family: league Spartan;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+path {
+    fill: transparent;
+}
+
+.use {
+    position: absolute;
+    top: 245%;
+    font-family: Sanchez;
+    color: white;
+    font-size: 18px;
+    max-width: 300px; 
+}
+.use2 {
+    position: absolute;
+    top: 430%;
+    font-family: Sanchez;
+    color: white;
+    font-size: 18px;
+    max-width: 300px; 
+}
+.use3 {
+    position: absolute;
+    top: 615%;
+    font-family: Sanchez;
+    color: white;
+    font-size: 18px;
+    max-width: 300px; 
+}
+.use4 {
+    position: absolute;
+    top: 808%;
+    font-family: Sanchez;
+    color: white;
+    font-size: 18px;
+    max-width: 300px; 
+}
+
+.discover {
+    margin-top: -5%;
+}
+
+.define {
+    margin-top: 140%;
+}
+
+.develop {
+    margin-top: 230%;
+}
+
+.deliver {
+    margin-top: 325%;
+}
+
+  /* The post-it-(wrapper) on the board, set it to display flex and position relative so we can play around with the elements inside it */
+  .post-it {
+      width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(255, 226, 120);
+    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.3);
+    font-family: sanchez;
+    color: black;
+    text-shadow: black;
+  }
+  /* The text-edit box so we can write in the post-it */
+  .post-it-edit {
+    width: 100%;
+    padding: 5px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    outline: none;
+  }
+  /* Three diffrent colors and tilts */
+  .red-post-it {
+    transform: rotate(4deg);
+    background-color: rgb(255, 226, 120);
+  }
+  .blue-post-it {
+    transform: rotate(-4deg);
+    background-color: rgb(255, 226, 120);
+  }
+  .orange-post-it {
+    transform: rotate(5deg);
+    background-color:rgb(255, 226, 120);
+  }
+  /* remove button */
+  .remove {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .post-it:hover .remove {
+    opacity: 1;
+  }
+  
