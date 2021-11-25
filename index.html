@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=League+Spartan&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="style.css"/ type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/924e23ad6b.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device width, initial scale=1.0">
+        <script src="/script.js" defer></script>
+        <title>Home page</title>
+    </head>
+
+    <body>
+        <div class="background">
+            <div class="v18_22">
+        </div>
+        <div class=sidebarmenu>
+            <h1>Pick your design process</h1>
+            <ul>
+                <li>
+                    <a href="Doberman.html">
+                        <span class=icon><i class="far fa-dot-circle"></i>
+                        </span>
+                        <span class="title">Doberman design process</span>
+                        <a href="doublediamond.html">
+                            <span class=icon><i class="far fa-dot-circle"></i>
+                            </span>
+                            <span class="title">Double Diamond</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="toggle" onclick="toggleMenu()">
+        </div>
+        <script type="text/javascript">
+            function toggleMenu(){
+                let sidebarmenu = document.querySelector('.sidebarmenu');
+                let toggle = document.querySelector('.toggle');
+                sidebarmenu.classList.toggle('active');
+                toggle.classList.toggle('active');
+            }
+        </script>
+        <div class="logo"></div>
+            <span class="welcome">Welcome to</span>
+            <span class="slogan">Leave the box by the door.</span>
+            <span class="menutext">Menu</span>
+            <div class="name">
+            </div>
+        </div>
+    </body>
+</html>

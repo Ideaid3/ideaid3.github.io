@@ -1,0 +1,404 @@
+.dmbackground {
+    width: 100%;
+    height: 13816px;
+    background: rgba(3,89,86,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+ .dmlogo {
+     width: 137px;
+     height: 44px;
+     opacity: 1;
+     position: absolute;
+     top: 85px;
+     left: 85px;
+     cursor: pointer; 
+ }
+
+ .description {
+     position: absolute;
+     margin-top: 250px;
+     margin-left: 150px;
+     margin-right: 300px;
+     color: #fff;
+     font-size: 25px;
+ }
+ .desc1 {
+     font-family: league Spartan;
+ }
+ .desc2 {
+     font-family: Sanchez;
+ }
+
+
+ .btn-toolbar{
+     position: static;
+     margin-top: 400px;
+     margin-left: 160px;
+    }
+
+ .dmbutton1 {
+     height: 50px;
+     margin-right: 15px;
+     padding-right: 20px;
+     padding-left: 20px;
+     border-radius: 30px;
+     border: 0px;
+     color: #fff;
+     background-color: #00917C;
+     font-family: Sanchez;
+     font-size: 30px;
+     cursor:pointer ;
+ }
+.dmbutton1:hover {
+    background:#00C5AD;
+}
+
+.dmbutton2 {
+    height: 50px;
+    margin-right: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 0px;
+    color: #fff;
+    background-color: #00917C;
+    font-family: Sanchez;
+    font-size: 30px;
+    cursor:pointer ;
+}
+.dmbutton2:hover {
+   background:#00C5AD;
+}
+
+.dmbutton3 {
+    height: 50px;
+    margin-right: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 0px;
+    color: #fff;
+    background-color: #00917C;
+    font-family: Sanchez;
+    font-size: 30px;
+    cursor:pointer ;
+}
+.dmbutton3:hover {
+   background:#00C5AD;
+}
+
+.dmbutton4 {
+    height: 50px;
+    margin-right: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 0px;
+    color: #fff;
+    background-color: #00917C;
+    font-family: Sanchez;
+    font-size: 30px;
+    cursor:pointer ;
+}
+.dmbutton4:hover {
+   background:#00C5AD;
+}
+
+.dmbutton5 {
+    height: 50px;
+    margin-right: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 0px;
+    color: #fff;
+    background-color: #00917C;
+    font-family: Sanchez;
+    font-size: 30px;
+    cursor:pointer ;
+}
+.dmbutton5:hover {
+   background:#00C5AD;
+}
+
+.dmbutton6 {
+    height: 50px;
+    margin-right: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 0px;
+    color: #fff;
+    background-color: #00917C;
+    font-family: Sanchez;
+    font-size: 30px;
+    cursor:pointer ;
+}
+.dmbutton6:hover {
+   background:#00C5AD;
+}
+
+.dmDescImg {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.stepsHeader {
+    margin-top: 450px;
+    margin-left: 140px;
+    color: #fff;
+}
+.h2align {
+    position:absolute;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: league Spartan;
+}
+.palign {
+    position:absolute;
+    margin-top: 75px;
+    margin-left: 35px;
+    font-family: Sanchez;
+    font-size: 17px;
+}
+
+.postitInfo {
+    position:absolute;
+    margin-left: 165px;
+    margin-top: 200px;
+    width: 250px;
+    color: #fff;
+    font-family: Sanchez;
+    font-size: 17px;
+}
+.postits {
+    position: absolute;
+    width: 200px;
+    margin-left: 165px;
+    margin-top: 250px;
+    font-size: 100px;
+}
+.ideaBoard {
+    position:absolute;
+    width: 700px;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+
+h1 {
+    color: #fff;
+    font-family: league Spartan;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 30px;
+    margin-left: 51px;
+    margin-top: 170px;
+  }
+
+.menutext {
+    width: 59px;
+    color: rgba(255,252,252,1);
+    position: absolute;
+    top: 110px;
+    right: 115px;
+    font-family: League Spartan;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+
+.sidebarmenu {
+    position: absolute;
+    width: 1px;
+    height: 750px;
+    right:0;
+    background: #035956;
+    transition: 0.5s;
+    position: right;
+    overflow: hidden;
+}
+
+.sidebarmenu:hover,
+.sidebarmenu.active
+{
+    width: 350px;
+}
+.sidebarmenu ul {
+    position: absolute;
+    margin-top: 150px;
+    top: 0;
+    Left: 0;
+    width: 350px;
+    color: rgb(255, 255, 255);
+}
+.sidebarmenu ul li {
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+    list-style: none;   
+}
+.sidebarmenu ul li a:hover {
+    background: #00C5AD;
+}
+
+.sidebarmenu ul li a {
+    margin-right: 5px;
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: Sanchez;
+}
+
+.sidebarmenu ul li a .title {
+    position: relative;
+    display: block;
+    padding: 0 15px;
+    height: 50px;
+    line-height:50px;
+    text-align: start;
+    white-space: nowrap;
+}
+
+.toggle {
+  position: absolute;
+  top: 95px;
+  right: 60px;
+  width: 50px;
+  height: 50px;
+  background: #035956;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.toggle.active {
+  background: #00C5AD;
+}
+
+.toggle:before {
+content:'\f0c9';
+font-family: fontAwesome;
+position: absolute;
+width: 100%;
+height:100%;
+line-height: 50px;
+text-align: center;
+font-size: 32px;
+color: #fff;
+}
+.toggle.active:before {
+content: '\f00d';
+}
+
+.far {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 0%;
+}
+
+
+@media (max-width: 767px){
+  .navigation {
+      left:-60px
+  }
+  .navigation.active {
+      left:0px;
+      width: 100%;
+  }
+}
+
+a:link {
+    color: #fff;
+}
+a:visited {
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tools {
+    width: 100%;
+    margin-top: 95%;
+    margin-left: 10%;
+}
+
+.elipse1 {
+    height: 290px;
+    width: 300px;
+    border: none;
+    background-color: #00917C;
+    border-radius: 47%;
+    cursor: pointer;
+}
+.elipse1:hover {
+    background-color: #00C5AD;
+}
+.rolesimg {
+    position: absolute;
+    left: 15.6%;
+    top: 14.4%;
+}
+
+.elipse2 {
+    position:absolute;
+    margin-top: -18%;
+    margin-left: 40%;
+    height: 300px;
+    width: 315px;
+    border: none;
+    background-color: #00917C;
+    border-radius: 55%;
+    cursor: pointer;
+}
+.elipse2:hover {
+    background-color: #00C5AD;
+}
+.methodkitimg {
+    position: absolute;
+    left: 28.6%;
+    top: 28.4%;
+}
+
+.elipse3 {
+    position:absolute;
+    margin-top: 126%;
+    margin-left: 70%;
+    height: 290px;
+    width: 300px;
+    border: none;
+    background-color: #00917C;
+    border-radius: 47%;
+    cursor: pointer;
+}
+.elipse3:hover {
+    background-color: #00C5AD;
+}
+.teamimg {
+    position: absolute;
+    left: 28.6%;
+    top: 28.4%;
+}
+
+
+text {
+    position: absolute;
+    fill: white;
+    font-size: 34px;
+    font-family: league Spartan;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+path {
+    fill: transparent;
+}

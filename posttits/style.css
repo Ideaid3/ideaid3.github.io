@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Avenir Next, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+/* Post-it board, set to a grid with 5 columns and 3 rows, each piece being 150px height and width */
+.post-it-board {
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 5px;
+  padding: 10px 20px;
+  background-image: url("./images/board.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 800px;
+}
+/* The create post-it, each time this is clicked it will create a post-it and append it to the board */
+.create-post-it {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.3);
+  background-color: rgb(236, 236, 59);
+  transform: rotate(-4deg);
+}
+/* The post-it-(wrapper) on the board, set it to display flex and position relative so we can play around with the elements inside it */
+.post-it {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(236, 236, 59);
+  box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.3);
+}
+/* The text-edit box so we can write in the post-it */
+.post-it-edit {
+  width: 100%;
+  padding: 5px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  outline: none;
+}
+/* Three diffrent colors and tilts */
+.red-post-it {
+  transform: rotate(4deg);
+  background-color: rgb(233, 69, 69);
+}
+.blue-post-it {
+  transform: rotate(-4deg);
+  background-color: rgb(18, 133, 240);
+}
+.orange-post-it {
+  transform: rotate(5deg);
+  background-color: rgb(255, 195, 83);
+}
+/* remove button */
+.remove {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-it:hover .remove {
+  opacity: 1;
+}

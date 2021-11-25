@@ -1,25 +1,25 @@
 .dmbackground {
     width: 100%;
     height: 6500px;
-    background: rgba(3,89,86,1);
+    background: rgba(3, 89, 86, 1);
     opacity: 1;
     position: absolute;
     top: 0px;
     left: 0px;
     overflow: hidden;
-}
-
-.dmlogo {
+  }
+  
+  .dmlogo {
     width: 100px;
     height: 35px;
     left: 5%;
     top: 1.3%;
     position: absolute;
-}
-
-.menutext {
+  }
+  
+  .menutext {
     width: 59px;
-    color: rgba(255,252,252,1);
+    color: rgba(255, 252, 252, 1);
     position: absolute;
     top: 11%;
     right: 10%;
@@ -29,8 +29,8 @@
     opacity: 1;
     text-align: left;
   }
-
-h1 {
+  
+  h1 {
     color: white;
     font-family: League Spartan;
     font-size: 40px;
@@ -38,43 +38,40 @@ h1 {
     margin-right: 5%;
     margin-left: 30%;
     margin-top: 50%;
-}
-
-
-.sidebarmenu {
+  }
+  
+  .sidebarmenu {
     position: absolute;
     width: 1px;
     height: 6500px;
-    right:0;
+    right: 0;
     background: #00917C;
     transition: 0.5s;
     position: right;
     overflow: hidden;
     top: 0px;
-}
-.sidebarmenu:hover,
-.sidebarmenu.active
-{
+  }
+  .sidebarmenu:hover,
+  .sidebarmenu.active {
     width: 350px;
-}
-.sidebarmenu ul {
+  }
+  .sidebarmenu ul {
     position: absolute;
     margin-top: 150px;
     top: 0;
-    Left: 0;
+    left: 0;
     color: rgb(255, 255, 255);
-}
-.sidebarmenu ul li {
+  }
+  .sidebarmenu ul li {
     position: relative;
     margin-top: 200px;
-    list-style: none;  
-}
-
-.sidebarmenu ul li a:hover {
+    list-style: none;
+  }
+  
+  .sidebarmenu ul li a:hover {
     background: #00C5AD;
-
-}
-.sidebarmenu ul li a {
+  }
+  .sidebarmenu ul li a {
     margin-right: 5px;
     position: relative;
     display: block;
@@ -84,59 +81,59 @@ h1 {
     color: #fff;
     font-size: 16px;
     font-family: Sanchez;
-}
-.sidebarmenu ul li a .title {
+  }
+  .sidebarmenu ul li a .title {
     position: relative;
     display: block;
     padding: 0 15px;
     height: 50px;
-    line-height:50px;
+    line-height: 50px;
     text-align: start;
     white-space: nowrap;
-}
-.toggle {
-  position: absolute;
-  top: 9%;
-  right: 5%;
-  width: 50px;
-  height: 50px;
-  background: #035956;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.toggle.active {
-  background: #00917C;
-}
-.toggle:before {
-content:'\f0c9';
-font-family: fontAwesome;
-position: absolute;
-width: 100%;
-height:100%;
-line-height: 50px;
-text-align: center;
-font-size: 32px;
-color: #fff;
-}
-.toggle.active:before {
-content: '\f00d';
-}
-.far {
-  font-size: 13px;
-  margin-top: 20px;
-  margin-left: 50%;
-}
-@media (max-width: 767px){
-  .navigation {
-      left:-60px
   }
-  .navigation.active {
-      left:0px;
+  .toggle {
+    position: absolute;
+    top: 9%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    background: #035956;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .toggle.active {
+    background: #00917C;
+  }
+  .toggle:before {
+    content: "\f0c9";
+    font-family: fontAwesome;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+  }
+  .toggle.active:before {
+    content: "\f00d";
+  }
+  .far {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 50%;
+  }
+  @media (max-width: 767px) {
+    .navigation {
+      left: -60px;
+    }
+    .navigation.active {
+      left: 0px;
       width: 100%;
+    }
   }
-}
-
-.sideheader {
+  
+  .sideheader {
     position: absolute;
     color: white;
     font-family: League Spartan;
@@ -147,9 +144,9 @@ content: '\f00d';
     background-position: center;
     background-size: cover;
     display: grid;
-}
-
-.sideparagraph {
+  }
+  
+  .sideparagraph {
     position: relative;
     color: white;
     margin-top: 18%;
@@ -157,17 +154,17 @@ content: '\f00d';
     margin-right: 18%;
     font-size: 15px;
     width: 950px;
-}
-.sideparagraph1 {
+  }
+  .sideparagraph1 {
     font-family: League Spartan;
     font-weight: bold;
     font-size: 20px;
-}
-.sideparagraph2 {
+  }
+  .sideparagraph2 {
     font-family: Sanchez;
-}
-
-.ddheaders {
+  }
+  
+  .ddheaders {
     font-family: League Spartan;
     font-size: 30px;
     font-weight: bold;
@@ -177,12 +174,12 @@ content: '\f00d';
     left: 17.5%;
     width: 60%;
     text-align: center;
-}
-.research {
+  }
+  .research {
     padding-right: 26%;
-}
-
-.ddparagraphs {
+  }
+  
+  .ddparagraphs {
     font-family: sanchez;
     font-size: 15px;
     position: absolute;
@@ -191,42 +188,41 @@ content: '\f00d';
     left: 18%;
     width: 60%;
     text-align: center;
-}
-.ddparagraph1 {
+  }
+  .ddparagraph1 {
     padding-right: 23%;
-}
-
-
-.doublediamond {
+  }
+  
+  .doublediamond {
     position: absolute;
     top: 72%;
     left: 18.5%;
     width: 909px;
     height: 373px;
-}
-
-.btn-toolbar {
+  }
+  
+  .btn-toolbar {
     position: absolute;
-    top:95%;
+    top: 95%;
     margin-left: 395px;
     width: 80%;
     background-position: center;
     background-size: cover;
-}
-a:link {
+  }
+  a:link {
     color: white;
-}
-a:visited {
-    color:white;
-}
-  html {   
+  }
+  a:visited {
+    color: white;
+  }
+  html {
     scroll-behavior: smooth;
-}
-
-.ddbutton1 {
+  }
+  
+  .ddbutton1 {
     height: 50%;
     color: white;
-    background-color: rgba(3,89,86,1);;
+    background-color: rgba(3, 89, 86, 1);
     border-radius: 30px;
     border: 0px;
     font-size: 20px;
@@ -234,17 +230,17 @@ a:visited {
     font-style: italic;
     padding-left: 2%;
     padding-right: 2%;
-    margin-right:  2.5%;
+    margin-right: 2.5%;
     cursor: pointer;
-}
-.ddbutton1:hover {
-    background-color:#00C5AD;
-}
-
-.ddbutton2 {
+  }
+  .ddbutton1:hover {
+    background-color: #00C5AD;
+  }
+  
+  .ddbutton2 {
     height: 50%;
     color: white;
-    background-color: rgba(3,89,86,1);;
+    background-color: rgba(3, 89, 86, 1);
     border-radius: 30px;
     border: 0px;
     font-size: 20px;
@@ -254,15 +250,15 @@ a:visited {
     padding-right: 2%;
     cursor: pointer;
     margin-right: 8.7%;
-}
-.ddbutton2:hover {
-    background-color:#00C5AD;
-}
-
-.ddbutton3 {
+  }
+  .ddbutton2:hover {
+    background-color: #00C5AD;
+  }
+  
+  .ddbutton3 {
     height: 50%;
     color: white;
-    background-color: rgba(3,89,86,1);;
+    background-color: rgba(3, 89, 86, 1);
     border-radius: 30px;
     border: 0px;
     font-size: 20px;
@@ -272,14 +268,14 @@ a:visited {
     padding-right: 2%;
     cursor: pointer;
     margin-right: 3%;
-}
-.ddbutton3:hover {
-    background-color:#00C5AD;
-}
-.ddbutton4 {
+  }
+  .ddbutton3:hover {
+    background-color: #00C5AD;
+  }
+  .ddbutton4 {
     height: 50%;
     color: white;
-    background-color: rgba(3,89,86,1);;
+    background-color: rgba(3, 89, 86, 1);
     border-radius: 30px;
     border: 0px;
     font-size: 20px;
@@ -289,50 +285,50 @@ a:visited {
     padding-right: 2%;
     cursor: pointer;
     margin-right: 5%;
-}
-.ddbutton4:hover {
-    background-color:#00C5AD;
-}
-
-.stepsHeader {
+  }
+  .ddbutton4:hover {
+    background-color: #00C5AD;
+  }
+  
+  .stepsHeader {
     margin-top: 50%;
     margin-left: 20%;
     color: #fff;
-}
-.h2align {
-    position:absolute;
+  }
+  .h2align {
+    position: absolute;
     margin-top: 10px;
     font-size: 40px;
     left: 12%;
     font-family: league Spartan;
-}
-.palign {
-    position:absolute;
+  }
+  .palign {
+    position: absolute;
     margin-top: 75px;
     margin-left: -8%;
     font-family: Sanchez;
     font-size: 17px;
     width: 450px;
-}
-.postitInfo {
-    position:absolute;
+  }
+  .postitInfo {
+    position: absolute;
     margin-left: 165px;
     margin-top: 200px;
     width: 250px;
     color: #fff;
     font-family: Sanchez;
     font-size: 17px;
-}
-.postits {
+  }
+  .postits {
     position: absolute;
     width: 200px;
     margin-left: 165px;
     margin-top: 250px;
     font-size: 100px;
     cursor: pointer;
-}
-.ideaBoard {
-    position:absolute;
+  }
+  .ideaBoard {
+    position: absolute;
     width: 700px;
     height: 670px;
     margin-left: 600px;
@@ -342,15 +338,15 @@ a:visited {
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: repeat(4,150px);
-    grid-template-rows: repeat(3,150px);
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(3, 150px);
     gap: 5px;
     padding-top: 90px;
     padding-left: 70px;
     align-items: center;
-}
-
-h1 {
+  }
+  
+  h1 {
     color: #fff;
     font-family: league Spartan;
     font-size: 40px;
@@ -359,14 +355,14 @@ h1 {
     margin-left: 51px;
     margin-top: 170px;
   }
-
-.tools {
+  
+  .tools {
     width: 100%;
     margin-left: 10%;
     margin-top: 0%;
-}
-
-.elipse1 {
+  }
+  
+  .elipse1 {
     position: absolute;
     margin-top: 60%;
     height: 290px;
@@ -375,17 +371,17 @@ h1 {
     background-color: #00917C;
     border-radius: 47%;
     cursor: pointer;
-}
-.elipse1:hover {
+  }
+  .elipse1:hover {
     background-color: #00C5AD;
-}
-.rolesimg {
+  }
+  .rolesimg {
     position: absolute;
     left: 28%;
     top: 29%;
-}
-.elipse2 {
-    position:absolute;
+  }
+  .elipse2 {
+    position: absolute;
     margin-top: 60%;
     margin-left: 40%;
     height: 300px;
@@ -394,17 +390,17 @@ h1 {
     background-color: #00917C;
     border-radius: 55%;
     cursor: pointer;
-}
-.elipse2:hover {
+  }
+  .elipse2:hover {
     background-color: #00C5AD;
-}
-.methodkitimg {
+  }
+  .methodkitimg {
     position: absolute;
     left: 28%;
     top: 29%;
-}
-.elipse3 {
-    position:absolute;
+  }
+  .elipse3 {
+    position: absolute;
     margin-top: 60%;
     margin-left: 70%;
     height: 290px;
@@ -413,80 +409,80 @@ h1 {
     background-color: #00917C;
     border-radius: 47%;
     cursor: pointer;
-}
-.elipse3:hover {
+  }
+  .elipse3:hover {
     background-color: #00C5AD;
-}
-.teamimg {
+  }
+  .teamimg {
     position: absolute;
     left: 28.6%;
     top: 30%;
-}
-
-text {
+  }
+  
+  text {
     position: absolute;
     fill: white;
     font-size: 34px;
     font-family: league Spartan;
     margin-top: 5%;
     margin-left: 3%;
-}
-path {
+  }
+  path {
     fill: transparent;
-}
-
-.use {
+  }
+  
+  .use {
     position: absolute;
     top: 245%;
     font-family: Sanchez;
     color: white;
     font-size: 18px;
-    max-width: 300px; 
-}
-.use2 {
+    max-width: 300px;
+  }
+  .use2 {
     position: absolute;
     top: 430%;
     font-family: Sanchez;
     color: white;
     font-size: 18px;
-    max-width: 300px; 
-}
-.use3 {
+    max-width: 300px;
+  }
+  .use3 {
     position: absolute;
     top: 615%;
     font-family: Sanchez;
     color: white;
     font-size: 18px;
-    max-width: 300px; 
-}
-.use4 {
+    max-width: 300px;
+  }
+  .use4 {
     position: absolute;
-    top: 800%;
+    top: 808%;
     font-family: Sanchez;
     color: white;
     font-size: 18px;
-    max-width: 300px; 
-}
-
-.discover {
+    max-width: 300px;
+  }
+  
+  .discover {
     margin-top: -5%;
-}
-
-.define {
+  }
+  
+  .define {
     margin-top: 140%;
-}
-
-.develop {
+  }
+  
+  .develop {
     margin-top: 230%;
-}
-
-.deliver {
+  }
+  
+  .deliver {
     margin-top: 320%;
-}
-
+  }
+  
   /* The post-it-(wrapper) on the board, set it to display flex and position relative so we can play around with the elements inside it */
   .post-it {
-      width: 150px;
+    width: 150px;
     height: 150px;
     display: flex;
     align-items: center;
@@ -518,7 +514,7 @@ path {
   }
   .orange-post-it {
     transform: rotate(5deg);
-    background-color:rgb(255, 226, 120);
+    background-color: rgb(255, 226, 120);
   }
   /* remove button */
   .remove {
